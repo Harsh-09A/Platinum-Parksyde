@@ -131,16 +131,15 @@ aside {
   width: 100% !important;
 }
 
-/* Desktop */
-@media only screen and (min-width: 990px) {
-  .mobile-slider {
-    display: none;
+@media screen and (max-width: 600px) {
+  .carousel-item .banner1 {
+    content: url("../img/banner/mobile_banner1.jpg");
   }
-}
-/* Mobile */
-@media only screen and (max-width: 990px) {
-  .desktop-slider {
-    display: none;
+  .carousel-item .banner2 {
+    content: url("../img/banner/mobile_banner2.jpg");
+  }
+  .carousel-item .banner3 {
+    content: url("../img/banner/mobile_banner3.jpg");
   }
 }
 
