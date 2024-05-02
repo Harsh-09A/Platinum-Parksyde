@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platinum Parksyde - Thank You</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/extras/favicon.webp" sizes="16x16" />
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- EmailJS CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/mail.js"></script>
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Fancy Box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- Custom CSS & JS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <!-- Campaign Codes -->
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#main-navbar"
+    data-bs-root-margin="0px 0px -50%"
+    data-bs-smooth-scroll="true"
+    class="scrollspy"
+    tabindex="0"
+    data-offset="1">
+    <header class="fixed-top shadow-sm">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: #ffffff"
+        id="main-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo/logo.webp" alt="Logo" height="65px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html#slider">
+                  <i class="fa-solid fa-house nav-icon"></i>
+                  <span class="d-sm-inline d-md-none"> Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#pricing">
+                  <i class="fa-solid fa-coins nav-icon"></i>
+                  <span class="d-sm-inline"> Price</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#floor-plan">
+                  <i class="fa-solid fa-warehouse nav-icon"></i>
+                  <span class="d-sm-inline">Site & Floor Plan</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#amenities">
+                  <i class="fa-solid fa-wifi nav-icon"></i>
+                  <span class="d-sm-inline"> Amenities</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#gallery">
+                  <i class="fa-solid fa-images nav-icon"></i>
+                  <span class="d-sm-inline"> Gallery</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#location">
+                  <i class="fa-solid fa-map-location nav-icon"></i>
+                  <span class="d-sm-inline"> Location</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#virtual-tour">
+                  <i class="fa-brands fa-youtube nav-icon"></i>
+                  <span class="d-sm-inline"> Virtual Site Visit</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal"
+                  href="">
+                  <i class="fa-solid fa-download nav-icon"></i>
+                  <span class="d-sm-inline"> Download Brochure</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="thanku_section" class="container mt-5 p-4">
+        <div class="text-center">
+          <h2 class="section-heading text-center">Thank You</h2>
+          <p class="text-capitalize">
+            Your form is submitted, We'll get back to you soon.
+          </p>
+          <a href="index.html">
+            <button class="btn btn-primary submit-btn">Back To Home</button>
+          </a>
+        </div>
+      </section>
+      <!-- Sidebar -->
+      <aside class="sidebar-container">
+        <div class="sidebar">
+          <!-- Sidebar Top Links -->
+          <div class="sidebar-top pb-2">
+            <ul class="nav nav-fill side-top-block">
+              <li
+                class="nav-item"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                Pre Register
+              </li>
+              <li class="nav-item ps-1">
+                <a
+                  onclick="return gtag_report_conversion('tel:+919653464447');"
+                  href="tel:+919653464447"
+                  class="text-decoration-none text-white">
+                  <i class="fa-solid fa-phone me-2"></i> +919653464447
+                </a>
+              </li>
+            </ul>
+            <div class="container d-flex justify-content-center">
+              <button
+                class="btn btn-sm btn-info micro-form-btn-sm effectGradient effectScale mt-1"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                <i class="fa-solid fa-phone me-2"></i>
+                Instant Call Back
+              </button>
+            </div>
+          </div>
+
+          <!--Enquire Form  -->
+          <div class="enquire-section">
+            <span class="d-block text-center text-black fw-bold my-2">
+              Get The Best Quote
+            </span>
+            <div class="container">
+              <form id="contact-form" class="text-center">
+                <div class="mb-3">
+                  <label for="user_name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control inputStyle shadow-none"
+                    name="user_name"
+                    id="user_name"
+                    placeholder="Name"
+                    autocomplete="off"
+                    required />
+                </div>
+                <div class="mb-3">
+                  <label for="user_email" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control inputStyle shadow-none"
+                    name="user_email"
+                    id="user_email"
+                    placeholder="Email Address"
+                    autocomplete="off" />
+                </div>
+                <div class="mb-3">
+                  <label for="contact_number" class="form-label"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control inputStyle shadow-none"
+                    id="contact_number"
+                    name="contact_number"
+                    pattern="[0-9]{10}"
+                    placeholder="Phone Number"
+                    oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                    oninput="setCustomValidity('')"
+                    required />
+                </div>
+
+                <div
+                  class="d-flex ps-1 pb-2"
+                  style="font-size: 9px; color: #bfbfbf">
+                  <input
+                    type="checkbox"
+                    checked=""
+                    required=""
+                    class="custom-control-input custom-control-input-green"
+                    id="privacy_check"
+                    data-gtm-form-interact-field-id="0" />
+
+                  <label
+                    class="ps-2 pb-2 custom-control-label"
+                    for="privacy_check">
+                    I consent to the use of my provided data in accordance with
+                    the
+                    <a
+                      href="privacy_policy.html"
+                      target="_blank"
+                      style="font: inherit; color: inherit"
+                      >privacy policy</a
+                    >.</label
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <br />
+          <div>
+            <img
+              class="img-fluid p-2 scale-up-center"
+              src="img/extras/ola-uber-tagline.jpg"
+              alt="" />
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-4">
+      <!-- Footer -->
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <span class="text-center">
+          Disclaimer : The information provided on this website is intended
+          exclusively for informational purposes and managed by a RERA
+          authorized real estate agent namely Mr. Ramesh Gulabani. This Website
+          Is Not An Official Site And It Belongs To The Authorized Marketing
+          Partner For Information Purpose Only And Does Not Constitute An Offer
+          To Avail Any Service.
+        </span>
+        <span id="dots20" style="display: inline"></span>
+        <span id="more20" style="display: none">
+          <span>
+            The pricing information presented on this website is subject to
+            alteration without advance notification, and the assurance of
+            property availability cannot be guaranteed. The images showcased on
+            this website are for representational purposes only and may not
+            accurately reflect the actual properties. Please Note That This Is
+            The Official Website Of An Authorized Marketing Partner. We May
+            Share Data With Real Estate Regulatory Authority (RERA) Registered
+            Brokers/Companies For Further Processing As Required. We May Also
+            Send Updates And Information To The Mobile Number Or Email ID
+            Registered With Us. All rights reserved. The content, design, and
+            information on this website are protected by copyright and other
+            intellectual property rights. Any unauthorized use or reproduction
+            of the content may violate applicable laws. For accurate and
+            up-to-date information regarding services, pricing, availability,
+            and any other details, it is recommended to contact us directly
+            through the provided contact information on this website. Thank you
+            for visiting our website.
+          </span>
+        </span>
+        <br />
+        <span
+          class="read_more"
+          onclick="toggleContent('dots20','more20', 'myBtn20')"
+          id="myBtn20">
+          Read More
+        </span>
+      </div>
+
+      <p class="pb-4 pt-2 text-center">
+        <a
+          href="privacy_policy.html"
+          target="_blank"
+          style="text-decoration: none">
+          Privacy Policy</a
+        >
+        |
+        <a
+          href="termsandcondition.html"
+          target="_blank"
+          style="text-decoration: none">
+          Terms And Conditions</a
+        >
+      </p>
+      <hr />
+      <p class="copyright-text">
+        2023 © Copyright - All Rights Reserved. <br />
+      </p>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('https://wa.me/+919653464447');"
+            href="https://wa.me/+919653464447"
+            class="text-decoration-none text-white">
+            <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
+          </a>
+        </li>
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('tel:+919653464447');"
+            href="tel:+919653464447"
+            class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Us
+          </a>
+        </li>
+
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center">
+              <img src="img/logo/logo.webp" alt="" height="60px" />
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center text-black fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        placeholder="Phone Number"
+                        autocomplete="off"
+                        minlength="10"
+                        maxlength="10"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

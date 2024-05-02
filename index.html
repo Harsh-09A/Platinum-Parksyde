@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platinum Parksyde</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/extras/favicon.png" sizes="16x16" />
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- EmailJS CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/mail.js"></script>
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Fancy Box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- Custom CSS & JS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <!-- Campaign Codes -->
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#main-navbar"
+    data-bs-root-margin="0px 0px -50%"
+    data-bs-smooth-scroll="true"
+    class="scrollspy"
+    tabindex="0"
+    data-offset="1">
+    <header class="fixed-top shadow-sm">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: #ffffff"
+        id="main-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo/logo.webp" alt="Logo" height="65px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#slider">
+                  <i class="fa-solid fa-house nav-icon"></i>
+                  <span class="d-sm-inline d-md-none"> Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">
+                  <i class="fa-solid fa-coins nav-icon"></i>
+                  <span class="d-sm-inline"> Price</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#floor-plan">
+                  <i class="fa-solid fa-warehouse nav-icon"></i>
+                  <span class="d-sm-inline">Site & Floor Plan</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#amenities">
+                  <i class="fa-solid fa-wifi nav-icon"></i>
+                  <span class="d-sm-inline"> Amenities</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">
+                  <i class="fa-solid fa-images nav-icon"></i>
+                  <span class="d-sm-inline"> Gallery</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#location">
+                  <i class="fa-solid fa-map-location nav-icon"></i>
+                  <span class="d-sm-inline"> Location</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#virtual-tour">
+                  <i class="fa-brands fa-youtube nav-icon"></i>
+                  <span class="d-sm-inline"> Virtual Site Visit</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal"
+                  href="">
+                  <i class="fa-solid fa-download nav-icon"></i>
+                  <span class="d-sm-inline"> Download Brochure</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Slider Section -->
+      <section id="slider">
+        <!-- Slider -->
+        <div
+          id="carousel-Indicators"
+          class="carousel slide desktop-slider"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/banner/banner1.jpg"
+                class="d-block w-100"
+                alt="Banner1" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner/banner2.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Banner2" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner/banner3.jpg"
+                class="d-block w-100"
+                alt="Banner3" />
+            </div>
+          </div>
+        </div>
+
+        <!-- InfoBox -->
+        <div class="info-box text-center">
+          <span class="d-block info-status text-center effectGradient">
+            BOOKING OPEN</span
+          >
+          <span class="info-title d-block text-center">Platinum Parksyde </span>
+          <span class="info-location d-block text-center pb-1">
+            At Navi Mumbai <br />
+            By Platinum Group
+          </span>
+
+          <!-- Details Card -->
+
+          <!-- Offer Colored Box -->
+          <span class="d-block mb-1 text-capitalize of-box offer-bg-animation">
+            <span class="offer-text-outer">
+              <span class="offer-text">
+                Spot Booking Offers <br />
+                Vastu Complaint Homes <br />
+                Flexible Payment Plan
+              </span>
+            </span>
+          </span>
+          <span class="info-tag-line p-2"> Luxurious 2 & 3.5 BHK Starts </span>
+          <span class="info-price pb-3">₹ 1.38 Cr* Onwards </span>
+
+          <button
+            class="pro-button effectMoveGradient"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            Download Brochure
+          </button>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar-container">
+        <div class="sidebar">
+          <!-- Sidebar Top Links -->
+          <div class="sidebar-top pb-2">
+            <ul class="nav nav-fill side-top-block">
+              <li
+                class="nav-item"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                Pre Register
+              </li>
+              <li class="nav-item ps-1">
+                <a
+                  onclick="return gtag_report_conversion('tel:+919519519510');"
+                  href="tel:+919519519510"
+                  class="text-decoration-none text-white">
+                  <i class="fa-solid fa-phone me-2"></i> +919519519510
+                </a>
+              </li>
+            </ul>
+            <div class="container d-flex justify-content-center">
+              <button
+                class="btn btn-sm btn-info micro-form-btn-sm effectGradient effectScale mt-1"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                <i class="fa-solid fa-phone me-2"></i>
+                Instant Call Back
+              </button>
+            </div>
+          </div>
+
+          <!--Enquire Form  -->
+          <div class="enquire-section">
+            <span class="d-block text-center text-black fw-bold my-2">
+              Get The Best Quote
+            </span>
+            <div class="container">
+              <form id="contact-form" class="text-center">
+                <div class="mb-3">
+                  <label for="user_name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control inputStyle shadow-none"
+                    name="user_name"
+                    id="user_name"
+                    placeholder="Name"
+                    autocomplete="off"
+                    required />
+                </div>
+                <div class="mb-3">
+                  <label for="user_email" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control inputStyle shadow-none"
+                    name="user_email"
+                    id="user_email"
+                    placeholder="Email Address"
+                    autocomplete="off" />
+                </div>
+                <div class="mb-3">
+                  <label for="contact_number" class="form-label"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control inputStyle shadow-none"
+                    id="contact_number"
+                    name="contact_number"
+                    pattern="[0-9]{10}"
+                    placeholder="Phone Number"
+                    oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                    oninput="setCustomValidity('')"
+                    required />
+                </div>
+
+                <div
+                  class="d-flex ps-1 pb-2"
+                  style="font-size: 9px; color: #bfbfbf">
+                  <input
+                    type="checkbox"
+                    checked=""
+                    required=""
+                    class="custom-control-input custom-control-input-green"
+                    id="privacy_check"
+                    data-gtm-form-interact-field-id="0" />
+
+                  <label
+                    class="ps-2 pb-2 custom-control-label"
+                    for="privacy_check">
+                    I consent to the use of my provided data in accordance with
+                    the
+                    <a
+                      href="privacy_policy.html"
+                      target="_blank"
+                      style="font: inherit; color: inherit"
+                      >privacy policy</a
+                    >.</label
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <br />
+          <div>
+            <img
+              class="img-fluid p-2 scale-up-center"
+              src="img/extras/ola-uber-tagline.jpg"
+              alt="" />
+          </div>
+        </div>
+      </aside>
+
+      <!--Overview Section  -->
+      <section id="overview" class="container p-4 shadow-sm">
+        <h3 class="section-heading">Platinum Parksyde</h3>
+        <p class="overview-para">
+          In Kharghar, Navi Mumbai, the Platinum Group is now building the
+          Platinum Parksyde project, which will provide luxury with a perfect
+          balance of exclusivity and elegance. Uber Luxe Residences will be
+          located at this future address, assuring the comfort and wellbeing of
+          its residents. Excellence is never just a coincidence; neither it is
+          momentary. We at Platinum Group demonstrate brilliance through our
+          every idea, execution, creation, and relationship. We redefine
+          excellence every time with our thoughts, actions, and executions.
+          Being reliable and renowned real estate thought leaders, we build
+          legacies, much more than just architecture. With years of expertise,
+          we aim to foster uber-luxury spaces that exude sheer opulence.
+        </p>
+
+        <div class="m-4">
+          <!-- Download Brochure -->
+          <button
+            class="download-btn pro-button effectMoveGradient"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            <i class="fa-solid fa-download nav-icon"></i>
+            Download Brochure
+          </button>
+        </div>
+
+        <!-- Highlights -->
+        <h3 class="section-heading">Highlights</h3>
+        <div
+          class="row mr0 aos-init aos-animate mt-2"
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-duration="3000">
+          <div class="col-md-6">
+            <ul class="whybuy">
+              <li>
+                <span>Great connectivity to nearest infrastructure </span>
+              </li>
+              <li>
+                <span>Vishwajyot High School at 5 Mins. drive.</span>
+              </li>
+              <li>
+                <span>
+                  Central Park, ISKCON Temple, Golf Course at 5 Mins, drive.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="whybuy">
+              <li><span>Tata Memorial Hospital at 2 Mins. drive.</span></li>
+              <li>
+                <span>Geo Medicare Satyam Multispecialty Hospital 5 Mins.</span>
+              </li>
+              <li>
+                <span> Metro Station at 3 Mins. drive.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="container p-4 shadow-sm">
+        <h3 class="section-heading">Pricing</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Pricing Table -->
+            <div class="table-responsive">
+              <table
+                class="table table-striped table-borderless border price-table table-pricing">
+                <thead>
+                  <tr>
+                    <th scope="col" class="border border-bottom-0 mb-w">
+                      Type
+                    </th>
+                    <th scope="col" class="border border-bottom-0 mb-w">
+                      Carpet Area
+                    </th>
+                    <th
+                      scope="col"
+                      class="border border-bottom-0 border-right-0">
+                      Price
+                    </th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      class="border border-left-0 border-top-0 border-bottom-0 price-type">
+                      2 BHK
+                    </td>
+
+                    <td
+                      class="border border-left-0 border-top-0 border-bottom-0 price-carpet">
+                      740 Sq.ft
+                    </td>
+                    <td class="price-amt">₹ 1.38 Cr* Onwards</td>
+
+                    <td>
+                      <button
+                        class="btn btn-sm btn-info effectGradient effectScale enqModal"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        Price Breakup
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td
+                      class="border border-left-0 border-top-0 border-bottom-0 price-type">
+                      3.5 BHK
+                    </td>
+                    <td
+                      class="border border-left-0 border-top-0 border-bottom-0 price-carpet">
+                      1145 Sq.ft.
+                    </td>
+                    <td class="price-amt">₹ On Request</td>
+                    <td>
+                      <button
+                        class="btn btn-sm btn-info effectGradient effectScale enqModal"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        Price Breakup
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!--Costing Image  -->
+          <div
+            class="col-md-4 mt-1"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            <a>
+              <!-- Image -->
+              <div class="overlay-container">
+                <img
+                  class="img-fluid"
+                  src="img/costing/costing-details.webp"
+                  alt=""
+                  width="100%" />
+                <div class="overlay-slider-bottom"></div>
+                <div
+                  class="overlay-slider-top d-flex justify-content-center align-items-center">
+                  <button class="btn btn-success text-white enq-btn">
+                    Enquire Now
+                  </button>
+                </div>
+              </div>
+            </a>
+            <div class="at-property-dis effectGradient text-center p-1">
+              <h5>Complete Costing Details</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Floor Plans Section -->
+      <section id="floor-plan" class="container p-4 shadow-sm">
+        <h3 class="section-heading">Site & Floor Plan</h3>
+
+        <!-- Floor Plans Images -->
+        <div class="mt-3">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-3">
+              <div
+                class="col-md-4 mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                <div class="overlay-container">
+                  <img
+                    class="img-fluid floor-img blur"
+                    src="img/plans/2bhk.webp"
+                    alt="2BHK" />
+                  <div class="overlay-slider-bottom"></div>
+                  <div
+                    class="overlay-slider-top d-flex justify-content-center align-items-center">
+                    <button class="btn btn-success text-white enq-btn">
+                      Enquire Now
+                    </button>
+                  </div>
+                </div>
+                <!-- Property Description -->
+                <div class="at-property-dis effectGradient text-center p-1">
+                  <h5>2 BHK</h5>
+                </div>
+              </div>
+
+              <div
+                class="col-md-4 mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                <div class="overlay-container">
+                  <img
+                    class="img-fluid floor-img blur"
+                    src="img/plans/2bhk2.webp"
+                    alt="" />
+                  <div class="overlay-slider-bottom"></div>
+                  <div
+                    class="overlay-slider-top d-flex justify-content-center align-items-center">
+                    <button class="btn btn-success text-white enq-btn">
+                      Enquire Now
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Property Description -->
+                <div class="at-property-dis effectGradient text-center p-1">
+                  <h5>2 BHK</h5>
+                </div>
+              </div>
+
+              <div
+                class="col-md-4 mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#popupModal">
+                <div class="overlay-container">
+                  <img
+                    class="img-fluid floor-img blur"
+                    src="img/plans/3bhk.webp"
+                    alt="" />
+                  <div class="overlay-slider-bottom"></div>
+                  <div
+                    class="overlay-slider-top d-flex justify-content-center align-items-center">
+                    <button class="btn btn-success text-white enq-btn">
+                      Enquire Now
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Property Description -->
+                <div class="at-property-dis effectGradient text-center p-1">
+                  <h5>3 BHK</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Amenities Section -->
+      <section id="amenities" class="container p-4 shadow-sm text-center">
+        <div class="d-flex justify-content-between">
+          <h2 class="section-heading">Amenities</h2>
+        </div>
+
+        <!-- Carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/gym.jpg" alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/indoor.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/jogging.jpg" alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/kids.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/lobby.jpg" alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/multipurpose.jpg"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/parking.jpg" alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img class="img-fluid" src="img/amenities/trellis.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="container p-4 shadow-sm text-center">
+        <h3 class="section-heading">Gallery</h3>
+
+        <!-- Gallery -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-4">
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery01.jpg"
+                data-src="img/gallery/gallery01.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery02.jpg"
+                data-src="img/gallery/gallery02.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery03.jpg"
+                data-src="img/gallery/gallery03.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery04.jpg"
+                data-src="img/gallery/gallery04.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery05.jpg"
+                data-src="img/gallery/gallery05.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery06.jpg"
+                data-src="img/gallery/gallery06.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery07.jpg"
+                data-src="img/gallery/gallery07.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+
+            <div class="col-md-3 g-3 gal-img">
+              <img
+                class="img-fluid floor-img"
+                src="img/gallery/gallery08.jpg"
+                data-src="img/gallery/gallery08.jpg"
+                data-fancybox="gallery-a"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location Section -->
+      <section id="location" class="container p-4 shadow-sm">
+        <h2 class="section-heading">Location</h2>
+
+        <!-- Maps  -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            <!-- Map Iframe -->
+            <div class="col-md-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.880616611964!2d73.06859167466503!3d19.068985852193713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c189fd753315%3A0x556ab05661b71d32!2sPlatinum%20Parksyde!5e0!3m2!1sen!2sin!4v1714642473134!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="location_features_section m-3">
+          <div>
+            <!-- Nav Links Location -->
+            <ul class="nav nav-pills mb-3" id="pills-tabloc" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab active"
+                  id="pills-loc-0"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-0"
+                  role="tab"
+                  aria-controls="loc-0"
+                  aria-selected="true">
+                  CONNECTIVITY
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loc-1"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-1"
+                  role="tab"
+                  aria-controls="loc-1"
+                  aria-selected="false">
+                  EDUCATIONAL INSTITUTIONS
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loc-2"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-2"
+                  role="tab"
+                  aria-controls="loc-2"
+                  aria-selected="false">
+                  HOSPITAL
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Features Tab Content -->
+          <div class="tab-content" id="pills-tablocContent">
+            <div
+              class="tab-pane fade show active"
+              id="loc-0"
+              role="tabpanel"
+              aria-labelledby="pills-loc-0"
+              tabindex="0">
+              <!-- Connectivity Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Kharghar Railway Station at 12 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Metro Station at 3 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Sion - Panvel Highway at 10 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Mumbai - Pune Expressway at 15 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Upcoming International Airport at 30 Mins.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loc-1"
+              role="tabpanel"
+              aria-labelledby="pills-loc-1"
+              tabindex="1">
+              <!-- Educational Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Vishwajyot High School at 5 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Empyrean School at 2 Mins. walking distance.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ramsheth Thakur Public School at 7 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    NMIMS deemed University at 5 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Central Park, ISKCON Temple, Golf Course at 5 Mins, drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Upcoming Football Stadium at 5 Mins. drive.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loc-2"
+              role="tabpanel"
+              aria-labelledby="pills-loc-2"
+              tabindex="2">
+              <!-- Hospital Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Tata Memorial Hospital at 2 Mins. drive.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Geo Medicare Satyam Multispecialty Hospital 5 Mins.
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Polaris Multispecialty Hospital&nbsp; 1 Km
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Virtual Tour Section -->
+      <section id="virtual-tour" class="container p-4 shadow-sm">
+        <div class="container virtual-visit">
+          <div
+            class="bg-image d-flex align-items-center text-white text-center">
+            <div class="tour-img">
+              <div class="overlay-info">
+                <i
+                  class="fa-solid fa-circle-play play-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal"></i>
+                <h3 class="fs-1">Virtual Visit</h3>
+                <h5>Platinum Parksyde</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="container p-4 shadow-sm">
+        <div class="container w-100 mt-2">
+          <p class="fs-5 fw-bold text-center">About Platinum Group</p>
+          <p class="about-text">
+            Heralded a classicism in the art of home making, leveraging on the
+            business acumen & a two-decade expertise of specialists like Late
+            Shri Dharamshi Patel, Shri Girish Chheda, Shri. Virchand Visaria,
+            Platinum Group was officially incorporated in 2006, Today, driven by
+            the second generation, the group has re-written the rules of
+            graceful living by completing multiple projects in Navi Mumbai.
+            Renowned in the core business of construction & property
+            development, every project of ours is a landmark which needs no
+            address proof to differentiate.
+            <br />
+            Platinum Group has always enjoyed a great amount of trust and
+            loyalty from its patrons over all these years. The company is
+            managed by highly qualified professionals who are fully engrossed to
+            ensure that the company maintains its high standards in quality
+            construction, timely delivery, and customer satisfaction, which
+            helps it to enjoy an extremely resonant reputation in the
+            construction industry.
+          </p>
+          <p class="fs-5 fw-bold text-center">RERA Information</p>
+          <div class="container text-center">
+            <div class="row">
+              <div class="rera-box">
+                <div class="rera-img">
+                  <img
+                    src="img/qr/1.png"
+                    loading="lazy"
+                    style="
+                      max-width: 100%;
+                      height: 100px;
+                      display: inline-block;
+                    " />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-4">
+      <!-- Footer -->
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <span class="text-center">
+          Disclaimer : The information provided on this website is intended
+          exclusively for informational purposes and managed by a RERA
+          authorized real estate agent namely Mr. - - -. This Website Is Not An
+          Official Site And It Belongs To The Authorized Marketing Partner For
+          Information Purpose Only And Does Not Constitute An Offer To Avail Any
+          Service.
+        </span>
+        <span id="dots20" style="display: inline"></span>
+        <span id="more20" style="display: none">
+          <span>
+            The pricing information presented on this website is subject to
+            alteration without advance notification, and the assurance of
+            property availability cannot be guaranteed. The images showcased on
+            this website are for representational purposes only and may not
+            accurately reflect the actual properties. Please Note That This Is
+            The Official Website Of An Authorized Marketing Partner. We May
+            Share Data With Real Estate Regulatory Authority (RERA) Registered
+            Brokers/Companies For Further Processing As Required. We May Also
+            Send Updates And Information To The Mobile Number Or Email ID
+            Registered With Us. All rights reserved. The content, design, and
+            information on this website are protected by copyright and other
+            intellectual property rights. Any unauthorized use or reproduction
+            of the content may violate applicable laws. For accurate and
+            up-to-date information regarding services, pricing, availability,
+            and any other details, it is recommended to contact us directly
+            through the provided contact information on this website. Thank you
+            for visiting our website.
+          </span>
+        </span>
+        <br />
+        <span
+          class="read_more"
+          onclick="toggleContent('dots20','more20', 'myBtn20')"
+          id="myBtn20">
+          Read More
+        </span>
+      </div>
+
+      <p class="pb-4 pt-2 text-center">
+        <a
+          href="privacy_policy.html"
+          target="_blank"
+          style="text-decoration: none">
+          Privacy Policy</a
+        >
+        |
+        <a
+          href="termsandcondition.html"
+          target="_blank"
+          style="text-decoration: none">
+          Terms And Conditions</a
+        >
+      </p>
+      <hr />
+      <p class="copyright-text">
+        2023 © Copyright - All Rights Reserved. <br />
+      </p>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('https://wa.me/+919519519510');"
+            href="https://wa.me/+919519519510"
+            class="text-decoration-none text-white">
+            <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
+          </a>
+        </li>
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('tel:+919519519510');"
+            href="tel:+919519519510"
+            class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Us
+          </a>
+        </li>
+
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center">
+              <img src="img/logo/logo.webp" alt="" height="60px" />
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center text-black fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        placeholder="Phone Number"
+                        autocomplete="off"
+                        minlength="10"
+                        maxlength="10"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary download-btn m-2 effectMoveGradient btn btn-info micro-form-btn enqModal effectScale">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
