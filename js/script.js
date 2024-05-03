@@ -2,6 +2,10 @@ Fancybox.bind('[data-fancybox="gallery-a"]', {
   // Your custom options
 });
 
+Fancybox.bind('[data-fancybox="amenities-a"]', {
+  // Your custom options
+});
+
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,

@@ -18,16 +18,24 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 
+Color Code : 
+#a20031
+#ed1557
+#e7cd95
+#c6a16d
+*/
+
 :root {
-  --colorPrimary: #a20031;
-  --colorSecondary: #ed1557;
+  --colorPrimary: #c6a16d;
+  --colorSecondary: #e7cd95;
   --colorWhite: #ffffff;
   --colorOffWhite: #f7f7f7;
   --colorBorderWhite: #dbe4e9;
   --colorBlack: #000000;
   --colorHalfBlack: #333333;
   --colorBackgroundBlack: #343a40bd;
-  --colorGold: #9d7f1b;
+  --colorThemeBlack: #020202;
 
   /*  
   --main-color: 128, 0, 128; RGBA values for a purplish color 
@@ -117,7 +125,7 @@ aside {
 
 /* Slider */
 #slider {
-  margin-top: 70px;
+  margin-top: 75px;
   min-height: 80vh;
 }
 
@@ -296,7 +304,10 @@ aside {
   width: 100%;
   font-size: 1.7em;
   text-align: center;
-  color: var(--colorPrimary);
+  color: var(--colorThemeBlack);
+  text-transform: uppercase;
+  font-family: "Trajan_Pro_Bold";
+  text-shadow: 1px 1px 0px #000;
 }
 /* For Desktop */
 @media only screen and (min-width: 990px) {
@@ -407,6 +418,10 @@ aside {
 
 .owl-nav {
   display: none;
+}
+
+.ami_img img {
+  height: 180px;
 }
 /* Gallery Section */
 
