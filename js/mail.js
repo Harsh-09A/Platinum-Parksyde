@@ -35,8 +35,28 @@ const handleFormSubmit = async (
     company_name: "Platinum Parksyde",
   };
 
-  // Send Form
+  window.Anarock.submitLead({
+    api_key: "97548e3de8f0d07c", // get your api/auth key from support team
+    env: "production",
+    host: "anarock.com",
+    channel_name: "LandingPage",
+    campaign_id: "LP_Platinum_Parksyde",
+    name: templateParams.user_name,
+    email: templateParams.user_email,
+    purpose: "buy",
+    country_code: "in",
+    phone: templateParams.contact_number, // valid 10-digits phone number
+    source: "sms",
+    subSource: "sms-december-campaign",
+    onLeadSuccessCallback(leadID, data) {
+      console.log("lead captured with ID:", leadID);
+    },
+    onLeadFailureCallback(errorMessage) {
+      console.log(errorMessage);
+    },
+  });
 
+  // Send Form
   emailjs.send("contact_service", "contact_form", templateParams).then(
     function (response) {
       console.log("SUCCESS!", response.status, response.text);
