@@ -141,10 +141,10 @@ aside {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banner/mobile_banner1.jpg");
+    content: url("../img/banner/mobile_banner02.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banner/mobile_banner2.jpg");
+    content: url("../img/banner/mobile_banner01.jpg");
   }
   .carousel-item .banner3 {
     content: url("../img/banner/mobile_banner3.jpg");
